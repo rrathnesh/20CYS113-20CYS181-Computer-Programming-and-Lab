@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main () {
+    int n,i,j,rows;
+    scanf("%d", &rows);
+    for (i=1; i=rows-1; i++){
+        for (rows=1; rows<=i-1; rows++){
+            printf(" ");
+        }
+    printf("1");
+        for (j=1; j<=i+1; j++){
+            n=11*rows;
+            printf(" ",n);
+        }
+        printf("\n");
+    }
+    return 0;
+}

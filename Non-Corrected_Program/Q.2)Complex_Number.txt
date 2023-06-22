@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int complex_number, n1, n2;
+    scanf("%d", &n1);
+    scanf("%d", &n2);
+    complex_number=n1*n2;
+    printf("The value of the multiplied complex number is %d", complex_number);
+    return 0;
+}
